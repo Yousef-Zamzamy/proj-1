@@ -7,10 +7,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Home from './pages/home';
-import Css from './pages/css';
-import Html from './pages/html';
-import Javascript from './pages/javascript';
+import Home from './pages/Home';
+import Css from './pages/Css';
+import Html from './pages/Html';
+import Javascript from './pages/Javascript';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,17 +18,17 @@ const router = createBrowserRouter([
     errorElement: <h1>sorrry</h1>,
   },
   {
-    path: "/html",
+    path: "/Html",
     element: <Html/>,
     errorElement: <h1>sorrry</h1>,
   },
   {
-    path: "/css",
+    path: "/Css",
     element: <Css/>,
     errorElement: <h1>sorrry</h1>,
   },
   {
-    path: "/javascript",
+    path: "/Javascript",
     element: <Javascript/>,
     errorElement: <h1>sorrry</h1>,
   },
